@@ -1,0 +1,43 @@
+Hi, please read the following in order to run the code. 
+It contains the brief design and assumptions made in this project, and instructions you will need in order to run the code in Windows/Unix/Mac.
+
+Design Description: 
+
+The code is written in python for its simplicity to illustrate the concepts of cars moving, and the potential for collision when 2 or more cars travel to the same coordinates. In Part 2, the cars will move concurrently (although in a move-based manner) to find out if there is any collision that will occur.
+There are 2 basic object classes:
+a. Board (to set up the array of given width and height) - File: board.py
+b. Car (containing a name, present_coordinates, old_coordinates, direction) - File: car.py
+
+In addition, 3 files are created to handle the logic according to description below.
+a. solve.py - to contain the various logic of how the car moves,  and store current state of the board
+b. readinput.py - to read the txt file provided, and create the board and car objects for use by solve.py
+c. main.py -  to run the give simulations and output the results accordingly
+
+Test cases are written for solve, readinput, board and car to cover cases that may occur in both parts. Pytest is used for coverage and testing in this project.
+
+
+
+Assumptions:
+
+1. Part 1 assumes there is no name for the single car. In addition, the 2nd line will not be an empty line.
+2. Part 2 assumes that every set of lines sent inside the file (other than line 1) follows this format: 
+    a. Empty line 
+    b. Car name
+    c. Coordinate pair (separated by a space) and Direction after a space is given 
+    d. A string of moves with no spaces in between 
+3. For coordinate pair and direction lines, it will contain exactly 3 entries with only 1 space between any 2 entries. Coordinate pairs are non-negative, and will not exceed the values given by width and height on the 1st line. 
+The string of moves will only contain F/R/L characters
+4. Cars do not know how to avoid one another, and will only follow the set of moves exactly.
+
+
+
+Instructions:
+1. Ensure you are using python 3.11, recommend to create a virtual environment in Visual Studio Code to run the code if you can.
+2. Use command "pip install pytest" to ensure pytest is installed, then "pip install pytest-cov" to get coverage package.
+3. After downloading the zip file and extract the files, open a linux command shell/ git bash in your root folder.
+4. To run the code in main.py, please use command "python main.py". You should not need to run any other files there.
+5. To run the unit test cases, you may use command "python -m pytest tests/" to run all test cases
+6. Optional: Use command "python -m pytest --cov=src tests/" to get coverage report data in your shell.
+
+
+Thank you. Please let me know if you have any queries.

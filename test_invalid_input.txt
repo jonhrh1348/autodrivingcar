@@ -1,0 +1,4 @@
+10 10
+A
+1 2 N
+FFRFFFFRRL

@@ -1,0 +1,55 @@
+INFO:src.readinput: Reading file: test_data_p1.txt
+INFO:src.readinput: Number of lines in the file: 3
+INFO:src.readinput: Board and Car Information: [['10', '10'], ['1', '2', 'N', 'Car', 'FFRFFFRRLF']] 
+INFO:src.readinput: Car created: Car is at [1, 2] facing N.
+INFO:src.solve: Car: Car, Present Coordinates:[1, 3], Old Coordinates:[1, 2], Present Direction: N
+INFO:src.solve: Car: Car, Present Coordinates:[1, 4], Old Coordinates:[1, 3], Present Direction: N
+INFO:src.solve: Car: Car, Present Coordinates:[1, 4], Present Direction: E, Old Direction: N
+INFO:src.solve: Car: Car, Present Coordinates:[2, 4], Old Coordinates:[1, 4], Present Direction: E
+INFO:src.solve: Car: Car, Present Coordinates:[3, 4], Old Coordinates:[2, 4], Present Direction: E
+INFO:src.solve: Car: Car, Present Coordinates:[4, 4], Old Coordinates:[3, 4], Present Direction: E
+INFO:src.solve: Car: Car, Present Coordinates:[4, 4], Present Direction: S, Old Direction: E
+INFO:src.solve: Car: Car, Present Coordinates:[4, 4], Present Direction: W, Old Direction: S
+INFO:src.solve: Car: Car, Present Coordinates:[4, 4], Present Direction: S, Old Direction: W
+INFO:src.solve: Car: Car, Present Coordinates:[4, 3], Old Coordinates:[4, 4], Present Direction: S
+INFO:src.solve:4 3 S
+INFO:src.readinput: Reading file: test_data_p2.txt
+INFO:src.readinput: Number of lines in the file: 17
+INFO:src.readinput: Board and Car Information: [['10', '10'], ['1', '2', 'N', 'A', 'FFRFFFFRRL'], ['0', '4', 'S', 'C', 'RFFFFRRL'], ['7', '8', 'W', 'B', 'FFLFFFFFFF'], ['6', '6', 'E', 'D', 'FFLFFFRFL']] 
+INFO:src.readinput: Car created: A is at [1, 2] facing N.
+INFO:src.readinput: Car created: C is at [0, 4] facing S.
+INFO:src.readinput: Car created: B is at [7, 8] facing W.
+INFO:src.readinput: Car created: D is at [6, 6] facing E.
+INFO:src.solve: Car: A, Present Coordinates:[1, 3], Old Coordinates:[1, 2], Present Direction: N
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Present Direction: W, Old Direction: S
+INFO:src.solve: Car: A, Present Coordinates:[1, 4], Old Coordinates:[1, 3], Present Direction: N
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Old Coordinates:[0, 4], Present Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[1, 4], Present Direction: E, Old Direction: N
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Old Coordinates:[0, 4], Present Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[2, 4], Old Coordinates:[1, 4], Present Direction: E
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Old Coordinates:[0, 4], Present Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[3, 4], Old Coordinates:[2, 4], Present Direction: E
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Old Coordinates:[0, 4], Present Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[4, 4], Old Coordinates:[3, 4], Present Direction: E
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Present Direction: N, Old Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[5, 4], Old Coordinates:[4, 4], Present Direction: E
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Present Direction: E, Old Direction: N
+INFO:src.solve: Car: A, Present Coordinates:[5, 4], Present Direction: S, Old Direction: E
+INFO:src.solve: Car: C, Present Coordinates:[0, 4], Present Direction: N, Old Direction: E
+INFO:src.solve: Car: A, Present Coordinates:[1, 3], Old Coordinates:[1, 2], Present Direction: N
+INFO:src.solve: Car: B, Present Coordinates:[6, 8], Old Coordinates:[7, 8], Present Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[1, 4], Old Coordinates:[1, 3], Present Direction: N
+INFO:src.solve: Car: B, Present Coordinates:[5, 8], Old Coordinates:[6, 8], Present Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[1, 4], Present Direction: E, Old Direction: N
+INFO:src.solve: Car: B, Present Coordinates:[5, 8], Present Direction: S, Old Direction: W
+INFO:src.solve: Car: A, Present Coordinates:[2, 4], Old Coordinates:[1, 4], Present Direction: E
+INFO:src.solve: Car: B, Present Coordinates:[5, 7], Old Coordinates:[5, 8], Present Direction: S
+INFO:src.solve: Car: A, Present Coordinates:[3, 4], Old Coordinates:[2, 4], Present Direction: E
+INFO:src.solve: Car: B, Present Coordinates:[5, 6], Old Coordinates:[5, 7], Present Direction: S
+INFO:src.solve: Car: A, Present Coordinates:[4, 4], Old Coordinates:[3, 4], Present Direction: E
+INFO:src.solve: Car: B, Present Coordinates:[5, 5], Old Coordinates:[5, 6], Present Direction: S
+INFO:src.solve: Car: A, Present Coordinates:[5, 4], Old Coordinates:[4, 4], Present Direction: E
+INFO:src.solve: Car: B, Present Coordinates:[5, 4], Old Coordinates:[5, 5], Present Direction: S
+INFO:src.solve:A B 
+5 4 
+7
